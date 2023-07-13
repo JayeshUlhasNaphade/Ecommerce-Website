@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins&display=swap');
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.bg-custom{
+    background: #191c24;
+    color: white;
+}
+
+.bg-custom:hover{
+    color :#32c888!important;
+}
+
+.navbar{
+    background: #191c24!important;
+    border-bottom: 1px solid grey;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #fff;
+/*    background-color: #32c888!important;*/
+
+}
+
+.navbar-dark .navbar-nav .nav-item:hover{
+    border-radius: 10px;
+    /*background-color: #e2e2e2;*/
+    background-color: #32c888!important;
+
+}
+
+.login:hover{
+    color: white;
+   background: linear-gradient(90deg,#3157e1,#56b899 80%)!important;
+}
+
+.button-custom:hover{
+    color:white;
+    background: #32c888!important;
+}
+
+
+.cardColor{
+    color: black;
+    
+}
+
+.card .card-body{
+    color: black;
+}
+
+/*admin*/
+
+.bg-admin{
+    background: #191c24;
+}
+
+.admin .card{
+    border: 1px solid grey;
+    
+    
+}
+
+.admin .card:hover{
+    background: #e2e2e2;
+    box-shadow: 0 0 10px 5px #fff;
+    color:#32c888;
+    cursor: pointer;
+}
+
+
+
+
+/*Home*/
+.row .v1{
+  border-left: 3px solid #32c888!important;
+  height: 700px;
+  overflow-y: scroll;
+}
+
+.row .col .container .load{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.v1::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.list-group-item.active{
+    background: #191c24!important;
+    border-color: #32c888;
+}
+
+
+
+#spinner-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f3f3f3;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #32c888;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+@media (max-width:950px){
+    .row .cat{
+        display: none;
+    }
+}
+
+
+#productContainer a{
+    text-decoration: none;
+    
+}
+
+#productContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

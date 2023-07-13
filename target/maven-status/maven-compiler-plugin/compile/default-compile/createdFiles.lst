@@ -1,0 +1,13 @@
+com\mycompany\shopee\servlets\ProductOperationServlet.class
+com\mycompany\shopee\helper\Helper.class
+com\mycompany\shopee\helper\FactoryProvider.class
+com\mycompany\shopee\entities\Product.class
+com\mycompany\shopee\servlets\LogoutServlet.class
+com\mycompany\shopee\servlets\loadMore.class
+com\mycompany\shopee\entities\Category.class
+com\mycompany\shopee\dao\CategoryDao.class
+com\mycompany\shopee\dao\UserDao.class
+com\mycompany\shopee\servlets\RegisterServlet.class
+com\mycompany\shopee\dao\ProductDao.class
+com\mycompany\shopee\entities\User.class
+com\mycompany\shopee\servlets\LoginServlet.class
