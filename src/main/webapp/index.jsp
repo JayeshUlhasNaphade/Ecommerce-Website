@@ -26,10 +26,6 @@
 
         <%@include file="components/common_css_js.jsp" %>
 
-
-
-
-
     </head>
     <body>
         <%@include file="components/navbar.jsp" %>
@@ -113,7 +109,7 @@
                         for (Product product : plist) {
                     %>
                     <div class="col-md-4 ">
-                        <a href="product.jsp?product=<%= product.getpId()%>" class="stretched-link text-decoration-none" >
+                        <%--<a href="product.jsp?product=<%= product.getpId()%>" class="stretched-link text-decoration-none" > --%>
                             <div class="card h-100 w-70 text-muted ">
 
                                 <img src="img/products/<%= product.getpPhoto()%>" class="card-img-top w-50 rounded mx-auto mt-3 d-block align-item-center" alt="...">
@@ -148,7 +144,7 @@
                             <%
                                 productId = product.getpId();
                             %>
-                        </a>
+                       <%-- </a>--%>
                     </div>
                     <%
                         }
@@ -171,6 +167,9 @@
         </div>
 
 
+        <%@include file="components/commons_modal.jsp" %>
+        
+        
 
 
 

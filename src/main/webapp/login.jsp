@@ -100,7 +100,7 @@
                 // Hide the spinner after 5 seconds
                 setTimeout(function () {
                     spinnerOverlay.style.display = 'none';
-                }, 3000);
+                }, 500);
             });
         </script>
 
@@ -133,7 +133,7 @@
                                 </div>
 
                                 <div class="container mt-3 text-center">
-                                    <button  class="btn btn-outline-primary login text-black text-center px-5" onclick="spinner()">Login</button>
+                                    <button  class="btn btn-outline-primary login text-black text-center px-5" onclick="">Login</button>
 
                                 </div>
 
@@ -146,21 +146,22 @@
                 </div>
 
 
-
-                <!--                <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js">
-                                </script>
                 
-                                <script>
-                                    let notyf = new Notyf({
-                                    duration: 5000,
-                                    dismissible:true,
-                                    position: {
-                                        x: 'right',
-                                        y: 'top',
-                                    },
-                                    });
-                                    notyf.success('Login successful');                   
-                                </script>-->
+                </script>
+
+                <script>
+                    
+                    let notyf = new Notyf({
+                        duration: 5000,
+                        dismissible: true,
+                        position: {
+                            x: 'right',
+                            y: 'top',
+                        },
+                    });
+                    notyf.success('Login successful');
+                
+                </script>
 
                 </body>
                 </html>

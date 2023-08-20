@@ -15,6 +15,9 @@
     </head>
     <body>
         <%@include file="components/navbar.jsp" %>
+        
         <h1>Shopee</h1>
+        <%@include file="components/commons_modal.jsp" %>
+        
     </body>
 </html>

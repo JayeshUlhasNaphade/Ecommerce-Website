@@ -332,5 +332,9 @@
                 </div>
             </div>
         </div>
+                                        
+                                        
+        <%@include file="components/commons_modal.jsp" %>
+        
     </body>
 </html>
